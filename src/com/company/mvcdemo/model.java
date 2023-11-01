@@ -20,6 +20,12 @@ public class model {
         calculationValue = firstNumber - secondNumber;
     }
 
+    // SUper cool functions ETC
+
+    public void squareTwoNumbers(int firstNumber, int secondNumber){
+        calculationValue = firstNumber * firstNumber;
+    }
+
     public int getCalculationValue() {
         return calculationValue;
     }
