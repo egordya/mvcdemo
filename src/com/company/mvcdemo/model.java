@@ -16,6 +16,11 @@ public class model {
         calculationValue = firstNumber / secondNumber;
     }
 
+    // Take absolute value
+    public void abs(int firstNumber){
+        calculationValue = Math.abs(firstNumber);
+    }
+
     public int getCalculationValue() {
         return calculationValue;
     }
