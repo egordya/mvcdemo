@@ -16,6 +16,10 @@ public class model {
         calculationValue = firstNumber / secondNumber;
     }
 
+    public void subtractTwoNumbers(int firstNumber, int secondNumber){
+        calculationValue = firstNumber - secondNumber;
+    }
+
     public int getCalculationValue() {
         return calculationValue;
     }
