@@ -16,9 +16,12 @@ public class model {
         calculationValue = firstNumber / secondNumber;
     }
 
-    // Take absolute value
-    public void abs(int firstNumber){
-        calculationValue = Math.abs(firstNumber);
+    public void subtractTwoNumbers(int firstNumber, int secondNumber){
+        calculationValue = firstNumber - secondNumber;
+    }
+
+    public void squareTwoNumbers(int firstNumber, int secondNumber){
+        calculationValue = firstNumber * firstNumber;
     }
 
     public int getCalculationValue() {
